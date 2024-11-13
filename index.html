@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Peter's personal portfolio website. Frontend developer and data analyst showcasing skills, services, and projects.">
+    <title>Peter Ng'ang'a | Front-end Wed Developer & Data Analyst</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="logo">Peter.</a>
+            <nav class="navbar">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Portfolio">Portfolio</a>
+                <a href="#Contact">Contact Me</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="Home" class="home">
+                <div class="profile-img-container">
+                    <img src="C:/Users/PC/Desktop/WEB DEVELOPMENT/photo.png" alt="Profile Image" class="profile-img">
+                </div>
+                <div class="home-content">
+                    <h1>Hi, I'm Peter Ng'ang'a</h1>
+                    <h3>Front-end Web Developer & Data Analyst</h3>
+                    <p>A passionate Front-end Web Developer and a Data Analyst. I love solving problems to make life easier, let's do something great together.</p>
+                    <div class="btn-box">
+                        <a href="#">Hire Me</a>
+                        <a href="#">Let's Talk</a>
+                    </div>
+                </div>
+                
+                <div class="home-sci">
+                    <a href="https://www.facebook.com/profile.php?id=100085929582499&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://x.com/NdunguAng74102?t=eR12KZfsq7rrakRnOO6iUA&s=08"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/peter-nganga-464b4b325/"><i class='bx bxl-linkedin' ></i></a>
+        
+                </div>
+                <span class="home-imgHover"></span>
+            </section>
+
+        
+
+            <div id="About" class="tab-content tab-active">
+                <h2 id="About">About</h2>
+                
+                <ul>
+                    <li><strong>Bachelor of Science in Applied Statistics</strong>, Cooperative University Main Branch, Karen, Nairobi
+                        <br>Relevant Coursework: Statistical Analysis,<br> Data Interpretation, <br>Mathematical Modeling,<br>presentation.
+                    </li>
+                    <li><strong>Full-Stack Development</strong>, BCH
+                        <br>Tools and Technologies:HTML, CSS, JavaScript (React, Angular, Vue.js) ,<br>CSS preprocessors (SASS, LESS), <br>Version control (Git),<br>Front-end frameworks (React, Vue.js, Angular),<br>Web design tools (Adobe XD, Figma, Sketch).
+                    </li>
+                    <li><strong>Several Online Certifications:</strong> Coursera</li>
+                    <li><strong>Secondary Education:</strong> Jomo Kenyatta Boys High School</li>
+                    <li><strong>Additional Certifications:</strong> Jomo Kenyatta Boys High School</li>
+                    <br>Certificate Name:Peer Counseling,<br>Drug and Substance Abused,<br>Mental Awareness,<br>Class Representative,<br>Computer System Project.
+                </ul>
+            </div>
+            
+
+            <!-- Portfolio Section (Including About Images in Grid) -->
+            <section id="Portfolio" class="portfolio">
+                <h2>services</h2>
+                <div class="services-grid">
+                    <!-- Image 1 -->
+                    <div class="grid-item">
+                        <img src="C:/Users/PC/Desktop/WEB DEVELOPMENT/data.jpeg" alt="Services Image 1">
+                        <p>Highlight of skills and Services we offer with their related Analytical Softwares </p>
+                    </div>
+
+                    <!-- Image 2 -->
+                    <div class="grid-item">
+                        <img src="C:/Users/PC/Desktop/WEB DEVELOPMENT/visualization.jpeg" alt="Services Image 2">
+                        <p>Data Visualization is always the goal.Transform Your Business with Tailored IT Solutions</p>
+                    </div>
+
+                    <!-- Image 3 -->
+                    <div class="grid-item">
+                        <img src="C:/Users/PC/Desktop/WEB DEVELOPMENT/rw.jpeg" alt="Services Image 3">
+                        <p>Statistical Data Analysis, which involves Data cleaning, Interpretation, Analysis and Visualization for more understanding</p>
+                    </div>
+
+                    <!-- Image 4 -->
+                    <div class="grid-item">
+                        <img src="C:/Users/PC/Desktop/WEB DEVELOPMENT/design.jpeg" alt="Services Image 4">
+                        <p>Front-end Web Development, let's build great things that makes life easier together</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Contact" class="Contact">
+             <h2>Contact Me</h2>
+             <div class="Contact Me">
+                <form action="mailto:ndungupeter449@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Email</button>
+                </form>
+                <p>You can also reach me via SMS or call at <strong>0743729799</strong>.</p>
+             </div>
+            </section>
+        </main>
+
+        <script>
+            function showTab(tabName) {
+                const tabs = document.querySelectorAll('.tab-content');
+                tabs.forEach(tab => {
+                    tab.classList.remove('tab-active');
+                    if (tab.id === tabName) {
+                        tab.classList.add('tab-active');
+                    }
+                });
+            }
+        </script>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Transform Your Business with Tailored IT Solutions. All rights reserved.</p>
+    
+    </footer>
+</body>
+</html>
