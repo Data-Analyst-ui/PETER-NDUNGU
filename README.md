@@ -51,3 +51,7 @@ Feedback and suggestions are welcome! If you’d like to improve the design or a
 ## 🚀 Check out the live demo: [Your Portfolio URL Here]
 
 Would you like any modifications to better fit your personal branding? 😊
+
+## For more information 
+Contact: +2547-43729799
+Email: peterndung676@gmail.com
